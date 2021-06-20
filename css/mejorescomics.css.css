@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+    background-color:rgb(105, 19, 155)}
+
+/*ENCABEZADO*/
+#encabezado_comics{
+    width: 100%;
+    height: 100px;
+    background: rgb(15, 15, 15);}
+/*ENCABEZADO*/
+
+/*LOGO_ENCABEZADO*/
+#img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+/*LOGO_ENCABEZADO*/
+
+
+/*MENU_PRINCIPAL*/
+#menu_comics ul{ list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu_comics ul li{
+    float: left;
+}
+
+#menu_comics a{color: rgb(202, 202, 202);
+    text-decoration: none;
+    display: block;
+    padding: 10px 50px;
+    font-family:"Oswald";
+    font-size: 21px;
+    margin: auto;
+    margin-right: auto;
+}
+#menu_comics{ background: rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    margin-right: auto;
+     height: 50px;
+}
+#menu_comics a:hover{
+    color: blueviolet;
+    background: rgb(44, 44, 44);
+}
+#img_cental_logo{display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+/*BANNER*/
+#banner_comics{
+    max-width: 1000px;
+    min-height: 270px;
+    background: lightgray;
+    margin: 0 auto;}
+/*BANNER*/
+
+/*CONTENEDOR*/
+#contenedor{
+    max-width: 1000px;
+    min-height: 2500px;
+    background: rgb(206, 197, 214);
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;}
+
+/*CONTENIDO*/
+#contenedor{
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-family: "Oswald";
+    font-size: 20px; 
+    text-align: justify;}
+
+.img-izq{float: left;
+    margin-right: 15px;}
+    
+
+h1{color: black;
+    font-family: "Oswald";
+    text-align: center;
+    position: static;
+    border: 3px transparent #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;}
+
+
+h2{color: rgb(0, 0, 0);
+    text-align: center;
+    position: static;
+    border: 3px transparent #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    font-family:"Oswald";
+}
+
+p{color: rgb(0, 0, 0);
+    border: 3px transparent #ffffff;
+    padding: 10px 20px;
+    font-family:"Oswald";
+}
+#imagen1{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+#imagen_2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imagen_3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*CONTENEDOR*/
+
+
+/*PIE DE PAGINA*/ 
+footer{
+    float: left;
+    width: 100%;
+    min-height: 100px;
+    background: black;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;}
+/*PIE DE PAGINA*/ 
+

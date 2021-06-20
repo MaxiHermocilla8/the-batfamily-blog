@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+    background: url(../img/img_arkham/fondo\ de\ pantalla_jpg.png);
+}
+
+/*ENCABEZADO*/
+#encabezado_arkham{
+    width: 100%;
+    height: 100px;
+    background: rgb(15, 15, 15);}
+/*ENCABEZADO*/
+
+
+/*LOGO_ENCABEZADO*/
+#img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+/*LOGO_ENCABEZADO*/
+
+
+/*MENU PRINCIPAL*/
+#menu_arkham ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu_arkham ul li{
+    float: left;
+}
+#menu_arkham a{
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    display: block;
+    padding: 10px 50px;
+    font-family:"Oswald";
+    font-size: 21px;
+    margin: auto;
+    margin-right: auto;
+}
+#menu_arkham{
+    background: rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    margin-right: auto;
+     height: 50px;
+}
+#menu_arkham a:hover{
+    color: blueviolet;
+    background: rgb(44, 44, 44);
+}
+#img_central_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+/*MENU PRINCIPAL*/
+
+
+/*BANNER*/
+#banner_arkham{
+    max-width: 1000px;
+    min-height: 250px;
+    background: rgb(206, 197, 214);
+    margin: 0 auto;}
+/*BANNER*/
+
+/*CONTENEDOR*/
+#contenedor_arkham{
+    max-width: 1000px;
+    min-height: 4000px;
+    background: rgb(206, 197, 214);
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;}
+
+    
+/*CONTENIDO*/ 
+#contenedor_arkham{    
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-family: "Oswald";
+    font-size: 20px; 
+    text-align: justify;}
+
+.img_izq{
+    float: left;
+    margin-right: 15px;}
+
+h1{color: black;
+    font-family: "Oswald";
+
+   
+}
+/*CONTENIDO*/  
+/*CONTENEDOR*/
+
+
+/*PIE DE PAGINA*/ 
+footer{
+    float: left;
+    width: 100%;
+    min-height: 100px;
+    background: black;
+    padding: 18px;
+    text-align: center;
+    color: white;}
+/*PIE DE PAGINA*/ 
+
+h1{color: rgb(0, 0, 0);
+    text-align: center;
+    position: static;
+    border: 3px transparent #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+
