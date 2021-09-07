@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\paginas web\\repaso_desarrollo_web"
+		},
+		{
+			"path": "..\\..\\The BatFamily blog"
+		},
+		{
+			"path": "..\\..\\repaso"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Mi_sitio_web Blog"
+	}
+}
