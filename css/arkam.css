@@ -7,7 +7,7 @@ body{
 #encabezado_arkham{
     width: 100%;
     height: 210px;
-    background: rgb(15, 15, 15);
+    background: rgb(0, 0, 0);
 }
 /*ENCABEZADO*/
 
@@ -34,9 +34,8 @@ body{
     text-decoration: none;
     display: block;
     padding: 10px 30px;
-    font-size: 1.5vw;
+    font-size: 15px;
     font-family:"Oswald";
-
     margin: auto;
     margin-right: auto;
 }
@@ -49,8 +48,8 @@ body{
 
 }
 #menu_arkham a:hover{
-    color: rgb(255, 0, 0);
-    background: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    background: rgb(130, 72, 206);
 }
 #img_central_logo{
     display: block;
@@ -63,15 +62,15 @@ body{
 #banner_arkham{
     max-width: 1200px;
     min-height: 170px;
-    background: rgb(180, 172, 199);
+    background: rgb(61, 16, 165);
     margin: 0 auto;}
 /*BANNER*/
 
 /*CONTENEDOR*/
 #contenedor_arkham{
     max-width: 1200px;
-    min-height: 5500px;
-    background:rgb(180, 172, 199);
+    min-height: 100%;
+    background:rgb(27, 27, 27);
     margin: 0 auto;
     padding: 15px;
     box-sizing: border-box;}
@@ -115,4 +114,22 @@ footer{
 
 
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    aside{
+        flex: 30px;
+        background-color: rgb(218, 116, 22);
+        padding: 20px;
+    }
+    
 
+
+    .section1{
+        flex: 70%;
+        background-color: rgb(82, 85, 114);
+        padding: 20px;
+    }
+    

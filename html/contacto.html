@@ -15,72 +15,59 @@
     <header>
         <div id="encabezado_contac">
         <div id="logo"> </div>
-            <div id="logo"> </div><img id="img-center" height="190px" width="500px" src="../img/TheBatmanLogo.png" title="The BatFamily"</div>
-    </header>
+        <a href="../index.html"> <img id="img-center"  height="190px" width="500px" src="../img/TheBatman logo3.png" alt="The BatFamily"></a> 
+        
+      </header>
 
 <!--MENU_PRINCIPAL-->
-<div id="menu_contacto">
-    <nav class="navbar navbar-expand-md navbar-light" style="background-color: rgb(31, 28, 28);">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">inicio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" style="background-color: white;" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-1 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../html/arkham asylum.html">Arkham Asylum</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../html/Mejores Comics.html">Best Comics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../html/Peliculas.html">Movie</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../html/Videojuegos.html">VideoGame</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button><i class="bi bi-search"></i>
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                </svg>
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-</div> 
+
 <!--MENU_PRINCIPAL-->
 
-<section id="contenedor_contac">
 
-    <h1>Contact us</h1>
-    <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+<div id="contenedor_contac">
+
+<section class="d-flex justify-content-center">
+  <div class="card col-sm-6 p-3">
+    <div class="mb-3"><h4>Contac</h4></div>
+    <div class="mb-2">
+      <form action="../php/contacto.php" method="POST" class="row g-3 needs-validation" novalidate>
+        <div class="mb-2">
+          <label for="nombre">Name</label>
+          <input type="text" class="form-control" name="nombre" id="nombre" placeholder="example: Juan" required >
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+        <div class="mb-2">
+          <label for="apellido">Last name</label>
+          <input type="text" class="form-control" name="apellido" id="apellido" placeholder="example: perez" required>
         </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <div class="mb-2">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" name="1email" id="1email" placeholder="example: Juanperez@email.com" required>
+        <div class="col-md-4 position-relative"></div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <label for="email">Rescriba Email</label>
+          <input type="text" class="form-control" name="2email" id="2email" placeholder="example: Juanperez@email.com" required>
+        <div class="col-md-4 position-relative"></div>
+        </div>
+        <div class="mb-2">
+          <label for="mensaje">Message</label>
+        <textarea name="mensaje" class="form-control" id="mensaje" placeholder="Write your message" required></textarea>
+        </div>
+        <div class="mb-2">
+          <button class="btn btn-primary">Send</button>
+        </div>
       </form>
+    </div>
+  </div>
+  <script src="../js/formulario.js" ></script>
+
+</div>
 </section>
+  
+
+
 
 <!--PIE_DE_PAGINA-->
 <footer>
-    Rights reserved &copy; 2021 <br>
-    <a href="html/contacto.html">Contact us</a> <br> 
-    WWW.The batfamily.com 
     <img id="logo-m" width="100px" height="50px" src="../img/logoDePag.png" alt="murcielago" title="The BatFamily">
 </footer>
 <!--PIE_DE_PAGINA-->
